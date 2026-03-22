@@ -3,6 +3,7 @@ import './App.css';
 
 const appScreen = '/app-screen.jpeg';
 const brandLogo = '/rk-logo.png';
+const apkDownloadUrl = '/application-d6557cb8-a07d-4cf6-aa65-8ebf7ed3b9c7.apk';
 function App() {
 
 
@@ -57,9 +58,9 @@ function App() {
           </p>
           <div className="hero-btns">
             <a href="#download" className="btn-primary">
-              <svg viewBox="0 0 24 24" fill="currentColor" style={{ width: 20, height: 20 }}>
-                <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.7 9.05 7.37c1.32.07 2.23.71 3 .75 1.15-.22 2.25-.91 3.42-.82 1.45.14 2.55.69 3.27 1.74-3.06 1.82-2.33 5.77.33 6.9-.44 1.19-.96 2.35-2.02 3.34zM12.03 7.25c-.16-2.55 1.87-4.65 4.31-4.87.31 2.85-2.55 5.03-4.31 4.87z" />
-              </svg>
+             <svg viewBox="0 0 24 24" fill="currentColor" style={{ width: 20, height: 20 }}>
+  <path d="M17.6 9.48l1.43-2.49a.5.5 0 0 0-.87-.5l-1.46 2.53A8.03 8.03 0 0 0 12 8c-1.64 0-3.17.5-4.44 1.35L6.1 6.82a.5.5 0 1 0-.87.5l1.43 2.49A8 8 0 0 0 4 15v3a1 1 0 0 0 1 1h1v3a1 1 0 0 0 2 0v-3h8v3a1 1 0 0 0 2 0v-3h1a1 1 0 0 0 1-1v-3a8 8 0 0 0-2.4-5.52zM8 13.5A1.5 1.5 0 1 1 9.5 12 1.5 1.5 0 0 1 8 13.5zm8 0A1.5 1.5 0 1 1 17.5 12 1.5 1.5 0 0 1 16 13.5z"/>
+</svg>
               Download APK
             </a>
             <a href="#features" className="btn-ghost">
@@ -330,10 +331,10 @@ function App() {
           Download the Radha Krishna Chit Funds app and join thousands already growing their
           wealth.
         </p>
-        <a href="YOUR_APK_DOWNLOAD_LINK_HERE" className="btn-download" download>
-          <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.7 9.05 7.37c1.32.07 2.23.71 3 .75 1.15-.22 2.25-.91 3.42-.82 1.45.14 2.55.69 3.27 1.74-3.06 1.82-2.33 5.77.33 6.9-.44 1.19-.96 2.35-2.02 3.34zM12.03 7.25c-.16-2.55 1.87-4.65 4.31-4.87.31 2.85-2.55 5.03-4.31 4.87z" />
-          </svg>
+        <a href={apkDownloadUrl} className="btn-download" download="rk-chit-funds.apk">
+        <svg viewBox="0 0 24 24" fill="currentColor" style={{ width: 20, height: 20 }}>
+  <path d="M17.6 9.48l1.43-2.49a.5.5 0 0 0-.87-.5l-1.46 2.53A8.03 8.03 0 0 0 12 8c-1.64 0-3.17.5-4.44 1.35L6.1 6.82a.5.5 0 1 0-.87.5l1.43 2.49A8 8 0 0 0 4 15v3a1 1 0 0 0 1 1h1v3a1 1 0 0 0 2 0v-3h8v3a1 1 0 0 0 2 0v-3h1a1 1 0 0 0 1-1v-3a8 8 0 0 0-2.4-5.52zM8 13.5A1.5 1.5 0 1 1 9.5 12 1.5 1.5 0 0 1 8 13.5zm8 0A1.5 1.5 0 1 1 17.5 12 1.5 1.5 0 0 1 16 13.5z"/>
+</svg>
           <span>
             <span>Download Free APK</span>
             <span className="btn-download-sub">Android · Direct Install</span>
