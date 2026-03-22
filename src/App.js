@@ -3,7 +3,7 @@ import './App.css';
 
 const appScreen = '/app-screen.jpeg';
 const brandLogo = '/rk-logo.png';
-const apkDownloadUrl = '/application-d6557cb8-a07d-4cf6-aa65-8ebf7ed3b9c7.apk';
+const apkDownloadUrl = '/RK-Chitfunds.apk';
 function App() {
 
 
@@ -331,7 +331,7 @@ function App() {
           Download the Radha Krishna Chit Funds app and join thousands already growing their
           wealth.
         </p>
-        <a href={apkDownloadUrl} className="btn-download" download="rk-chit-funds.apk">
+        <a href={apkDownloadUrl} className="btn-download" download="RK-Chitsfunds.apk">
         <svg viewBox="0 0 24 24" fill="currentColor" style={{ width: 20, height: 20 }}>
   <path d="M17.6 9.48l1.43-2.49a.5.5 0 0 0-.87-.5l-1.46 2.53A8.03 8.03 0 0 0 12 8c-1.64 0-3.17.5-4.44 1.35L6.1 6.82a.5.5 0 1 0-.87.5l1.43 2.49A8 8 0 0 0 4 15v3a1 1 0 0 0 1 1h1v3a1 1 0 0 0 2 0v-3h8v3a1 1 0 0 0 2 0v-3h1a1 1 0 0 0 1-1v-3a8 8 0 0 0-2.4-5.52zM8 13.5A1.5 1.5 0 1 1 9.5 12 1.5 1.5 0 0 1 8 13.5zm8 0A1.5 1.5 0 1 1 17.5 12 1.5 1.5 0 0 1 16 13.5z"/>
 </svg>
@@ -350,10 +350,7 @@ function App() {
               alt="Radha Krishna Chit Funds"
               className="brand-logo footer-brand-logo"
             />
-            <div className="nav-logo-text">
-              <span>Radha Krishna Chit Funds</span>
-              <span>Trusted. Transparent. Together.</span>
-            </div>
+           
           </div>
           <div className="footer-links">
             <a href="#privacy">Privacy Policy</a>
