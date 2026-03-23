@@ -3,6 +3,8 @@ import './App.css';
 
 const appScreen = '/app-screen.jpeg';
 const brandLogo = '/rk-logo.png';
+const rkTextFavicon =
+  'data:image/svg+xml,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20viewBox%3D%220%200%2064%2064%22%3E%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2212%22%20fill%3D%22%23001132%22/%3E%3Ctext%20x%3D%2232%22%20y%3D%2239%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial,sans-serif%22%20font-size%3D%2226%22%20font-weight%3D%22700%22%20fill%3D%22%23ffffff%22%3ERK.%3C/text%3E%3C/svg%3E';
 const apkDownloadUrl = '/RK-Chitfunds.apk';
 function App() {
 
@@ -24,6 +26,18 @@ function App() {
     revealElements.forEach((element) => observer.observe(element));
 
     return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    let favicon = document.querySelector("link[rel='icon']");
+
+    if (!favicon) {
+      favicon = document.createElement('link');
+      favicon.setAttribute('rel', 'icon');
+      document.head.appendChild(favicon);
+    }
+
+    favicon.setAttribute('href', rkTextFavicon);
   }, []);
 
   return (
