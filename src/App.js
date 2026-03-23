@@ -82,7 +82,7 @@ function App() {
         </div>
       </section>
 
-      <div className="stats-strip">
+      {/* <div className="stats-strip">
         <div className="stat-item scroll-reveal">
           <div className="stat-number">10,000+</div>
           <div className="stat-label">Active Members</div>
@@ -99,7 +99,7 @@ function App() {
           <div className="stat-number">100%</div>
           <div className="stat-label">Transparent & Secure</div>
         </div>
-      </div>
+      </div> */}
 
       <section className="features" id="features">
         <span className="section-tag">What You Get</span>
@@ -244,19 +244,16 @@ function App() {
               and digital receipts every time.
             </p>
             <div className="pay-methods">
-              <div className="pay-badge">📱 UPI</div>
+              {/* <div className="pay-badge">📱 UPI</div> */}
               <div className="pay-badge">💳 Credit / Debit Cards</div>
               <div className="pay-badge">🏦 Net Banking</div>
               <div className="pay-badge">👛 Wallets</div>
-              <div className="pay-badge">📲 Google Pay</div>
-              <div className="pay-badge">📲 PhonePe</div>
-              <div className="pay-badge">📲 Paytm</div>
-            </div>
+                         </div>
           </div>
           <div className="payment-right scroll-reveal">
             <span className="section-tag">Bank-Grade Security</span>
             <h2 className="section-title">
-              Your Data is
+              Your Data is  
               <br />
               100% Protected
             </h2>
